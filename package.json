@@ -2,6 +2,7 @@
   "name": "dota2",
   "version": "1.0.0",
   "description": "1.0.0",
+  // 这个是你 npm init 时定义的入口文件，可以语义化，也可以叫 main.js app.js index.js
   "main": "dota.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +10,7 @@
   "author": "yevvb",
   "license": "MIT",
   "dependencies": {
+    // ^ 这表明在下一个主要版本号之前，所有已指定版本号之后的版本都能用
     "express": "^4.15.2",
     "express3-handlebars": "^0.5.2"
   }
