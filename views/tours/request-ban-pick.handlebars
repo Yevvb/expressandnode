@@ -1,0 +1,13 @@
+<h1>Request Ban Pick</h1>
+<form>
+	<input type="hidden" name="refer">
+	Heros: <input type="text" id="heros" name="heroName"><br>
+	Ban: <input type="text" name="ban"><br>
+	Pick: <input type="text" name="pick"><br>
+	<input type="submit" value="Submit">
+</form>
+<script>
+	$(document).ready(function() {
+		$('input[name="refer"]').val(document.refer);
+	});
+</script>
