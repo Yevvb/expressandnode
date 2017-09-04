@@ -81,8 +81,8 @@ module.exports = function(grunt) {
 
 - [ ] 持续集成 Travis CI
     每次向服务器共享代码时，CI 都会运行部分或全部测试。没有消息就是最好的消息，全部通过可能什么都不会发生，如果测试失败，后果一半是更加公开。Node 最流行的就是 Travis CI。
-
-- [ ] 
+    
+    
 
 
 
