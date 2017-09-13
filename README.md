@@ -17,7 +17,7 @@
 - [x] web 开发四个维度 / 到达率 / 功能 / 可用性 / 审美
 - [ ] 页面测试(Mocha) / 跨页浏览(Zombie.js) / 逻辑测试 / 去毛(JSHint) / 链接检查
     对去毛不得不多说一句，就是语法规则检查，团队使用能够规范代码风格，同时写代码的时候可以避免一些坑。流行的是 ESLint-Standard / Aribnb 出品的规范
-- [ ] JS 修改后自动重启服务器 nodemon / Grunt [插件](https://www.npmjs.org/package/grunt-nodemon)
+- [x] JS 修改后自动重启服务器 nodemon / Grunt [插件](https://www.npmjs.org/package/grunt-nodemon)
 - [ ] 页面测试 mocha (npm install --save-dev mocha) / 嵌入页面
     mocha 基于浏览器运行，一般将文件置于 public/vendor
     TDD: 测试驱动开发（首选）
